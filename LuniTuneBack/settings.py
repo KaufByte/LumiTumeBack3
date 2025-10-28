@@ -31,7 +31,7 @@ CORS_ALLOW_CREDENTIALS = True
 CSRF_TRUSTED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173","lumitumeback3.onrender.com"]
 ALLOWED_HOSTS = [
     "localhost", "127.0.0.1",
-    "lumitumeback3.onrender.com",   # ← твой домен Render
+    "https://lumitumeback3-1.onrender.com",   # ← твой домен Render
 ]
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")

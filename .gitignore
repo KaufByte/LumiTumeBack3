@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+db.sqlite3
+defaultdb.session.sql
+.env
+.env.*
+*.local
+.vscode/
+.idea/
+media/
+uploads/
+*.mp3
+*.wav
+*.mp4
+*.zip

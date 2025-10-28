@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-il&qp19+g8)vmwo2q@^t(aoufy!*3%uh3(7rx!3$(c+@4pnh35
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173","lumitumeback3.onrender.com"]
 CORS_ALLOW_CREDENTIALS = True
-CSRF_TRUSTED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173","lumitumeback3.onrender.com"]
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
